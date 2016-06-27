@@ -35,5 +35,4 @@ class KomaList {
     }
     return null;
   }
-
 }
