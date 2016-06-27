@@ -24,8 +24,8 @@ abstract class AbstractKoma {
 
     if (this.kStat.selected) this.drawSelected();
   }
-}
  void drawSelected() {
     fill(#FF0000, SQUARESIZE);
     rect(this.x*SQUARESIZE, this.y*SQUARESIZE, SQUARESIZE, SQUARESIZE);
   }
+}
